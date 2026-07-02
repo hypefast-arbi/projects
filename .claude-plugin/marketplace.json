@@ -1,0 +1,20 @@
+{
+  "name": "projects",
+  "owner": {
+    "name": "Arbi Ramadhan",
+    "email": "arbi.ramadhan@hypefast.id"
+  },
+  "description": "Complementary project knowledge for Hypefast PM work — domain/platform context consumed alongside the pm-workflow skills in hypefast-arbi/product-knowledge.",
+  "plugins": [
+    {
+      "name": "odoo-knowledge",
+      "source": "./odoo-erp",
+      "description": "Odoo functional knowledge across Essentials, Finance, HR, Productivity, Sales, Services, and Supply Chain modules."
+    },
+    {
+      "name": "product-skills",
+      "source": "./product-skills",
+      "description": "Odoo-specific requirement skills: module mapping, Odoo-native acceptance criteria, and standard-vs-custom classification for PRD requirement tables."
+    }
+  ]
+}
