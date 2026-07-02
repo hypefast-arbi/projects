@@ -1,0 +1,11 @@
+{
+  "name": "product-skills",
+  "displayName": "Product Skills (Odoo)",
+  "description": "Odoo ERP-specific product requirement skills: fill PRD requirement tables with Odoo module mapping, Odoo-native acceptance criteria, and standard-vs-custom classification.",
+  "author": {
+    "name": "Arbi Ramadhan",
+    "email": "arbi.ramadhan@hypefast.id"
+  },
+  "repository": "https://github.com/hypefast-arbi/projects",
+  "keywords": ["odoo", "erp", "requirements", "prd", "product-management"]
+}
