@@ -58,6 +58,10 @@ Rules:
 - When unsure between Standard and Config vs Custom, do NOT guess optimistically — flag `[Custom? — verify in Odoo <version>]`.
 - External-sync stories ("as an Odoo system I want to get received qty from <system>") are always `[Integration]` and their criteria must cover: trigger/frequency, matching key (PO/SKU), partial-quantity behavior (backorder), and failure handling `(assumed — confirm)` if the source doesn't state it.
 
+## Dev/Standard Solution column
+
+When the requirement table has a **Dev/Standard Solution** column (values `Standard` / `Development` / `Standard + Development`), fill it per [references/dev-standard-column.md](references/dev-standard-column.md) — the value is derived mechanically from each row's implementation flag above, so classify the flag first and the column follows.
+
 ## Odoo-specific anti-hallucination
 
 - Don't invent standard-Odoo behavior: version differences are real (e.g. Approvals workflows, subcontracting features, cost analysis reports changed across versions). Uncertain → `(verify in Odoo <version>)`.
