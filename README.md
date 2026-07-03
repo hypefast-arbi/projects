@@ -17,7 +17,7 @@ One folder per project/domain, each an installable Claude plugin (`.claude-plugi
 |---|---|---|
 | `odoo-erp/` | odoo-knowledge | Odoo functional knowledge — Essentials, Finance, HR, Productivity, Sales, Services, Supply Chain |
 | `product-skills/` | product-skills | Odoo-specific requirement-table layer: module mapping, Odoo-native acceptance criteria, standard/config/custom/integration flags |
-| `hypefast-workspace/` | hypefast-workspace | Hypefast account template — concrete Atlassian cloudId/site, Confluence spaces, Jira projects/boards, PRD-template source, and known people. The pm-workflow skills read this to skip runtime discovery on the `hypefast-it` account |
+| `hypefast-workspace/` | hypefast-workspace | Hypefast account template — concrete Atlassian cloudId/site, Confluence spaces, Jira projects/boards, PRD-template source, known people (`hypefast-atlassian`), and repo locations/git conventions (`hypefast-repos`). The pm-workflow skills read this to skip runtime discovery on the `hypefast-it` account |
 
 Add a new folder as each new project starts, following the same plugin structure.
 
