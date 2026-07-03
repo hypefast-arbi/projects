@@ -17,8 +17,15 @@ One folder per project/domain, each an installable Claude plugin (`.claude-plugi
 |---|---|---|
 | `odoo-erp/` | odoo-knowledge | Odoo functional knowledge — Essentials, Finance, HR, Productivity, Sales, Services, Supply Chain |
 | `product-skills/` | product-skills | Odoo-specific requirement-table layer: module mapping, Odoo-native acceptance criteria, standard/config/custom/integration flags |
+| `hypefast-workspace/` | hypefast-workspace | Hypefast account template — concrete Atlassian cloudId/site, Confluence spaces, Jira projects/boards, PRD-template source, and known people. The pm-workflow skills read this to skip runtime discovery on the `hypefast-it` account |
 
 Add a new folder as each new project starts, following the same plugin structure.
+
+**Account templates live here, not in product-knowledge.** The pm-workflow skills
+are organization-agnostic and hardcode no site, cloudId, space, or project. The
+concrete values for a given Atlassian account belong in an account-template plugin
+here (like `hypefast-workspace`); a teammate on a different account just installs
+their own template — or lets the skills discover/ask at runtime.
 
 ## Install
 
@@ -29,6 +36,7 @@ claude plugin marketplace add hypefast-arbi/projects
 # install the knowledge you need
 claude plugin install odoo-knowledge@projects
 claude plugin install product-skills@projects
+claude plugin install hypefast-workspace@projects   # Hypefast account template
 ```
 
 To update later: `claude plugin marketplace update projects`.

@@ -15,6 +15,11 @@
       "name": "product-skills",
       "source": "./product-skills",
       "description": "Odoo-specific requirement skills: module mapping, Odoo-native acceptance criteria, and standard-vs-custom classification for PRD requirement tables."
+    },
+    {
+      "name": "hypefast-workspace",
+      "source": "./hypefast-workspace",
+      "description": "Hypefast account template: concrete Atlassian cloudId/site, Confluence spaces, Jira projects/boards, PRD-template source, and known people for the hypefast-it workspace. Consumed by the pm-workflow skills so they skip runtime discovery on this account."
     }
   ]
 }

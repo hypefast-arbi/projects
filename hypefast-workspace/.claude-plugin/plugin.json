@@ -1,0 +1,11 @@
+{
+  "name": "hypefast-workspace",
+  "displayName": "Hypefast Workspace",
+  "description": "Hypefast account template: the concrete Atlassian cloudId/site, Confluence spaces, Jira projects/boards, PRD-template source page, and known people for the hypefast-it workspace. Consumed by the pm-workflow skills so they skip runtime discovery on this account.",
+  "author": {
+    "name": "Arbi Ramadhan",
+    "email": "arbi.ramadhan@hypefast.id"
+  },
+  "repository": "https://github.com/hypefast-arbi/projects",
+  "keywords": ["hypefast", "atlassian", "jira", "confluence", "workspace", "account-template"]
+}
